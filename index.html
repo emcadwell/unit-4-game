@@ -1,12 +1,78 @@
+<!--1.TODO: create html/js/css-->
+<!--2.TODO: link files together-->
+<!--3.TODO: construct html skeleton-->
+<!--4.TODO: generate random target score-->
+<!--5.TODO: display random target score to user-->
+<!--6.TODO: generate random value of each crystal-->
+<!--7.TODO: when user clicks on crystal, add crystal value to user score-->
+<!--8.TODO: update user score on page-->
+                <!--ALL PREVIOUS STEPS CREATED WITH JS-->
+<!--9.TODO: check if game over-->
+<!--10.TODO: reset all variables-->
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link style="stylesheet" type="text/css" href="assets/css/style.css">
     <title>Document</title>
 </head>
 <body>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script type="text/javascript" src="assets/javascript/game.js"></script>
+
+    <h1>Crystals Collector!</h1>
     
+    <div id="instructions">
+        <p>
+            You will be given a random number at the start of the game.
+        </p>
+        <p>
+            There are four crystals below. By clicking on a crystal you will add a specific amount of points to your total score.
+        </p>
+        <p>
+            You win the game by matching your total score to a random number, you lose the game if your total score goes above the random number.
+        </p>
+        <p>
+            The value of each crystal is hidden from you until you click on it. 
+        </p>
+        <p>
+            Each time when the game starts, the game will change the values of each crystal.
+        </p>
+    </div>
+
+    <span id="numberToGet"></span>
+
+    <div id="winLossCount">
+
+        <span>Win: </span>
+
+        <span id="numWins"></span>
+
+        <span>Losses: </span>
+
+        <span id="numLosses"></span>
+
+    </div>
+
+    <div class="cyrstal-buttons">
+        
+        <button class="crystal-button" id="red"></button>
+
+        <button class="crystal-button" id="blue"></button>
+
+        <button class="crystal-button" id="green"></button>
+
+        <button class="crystal-button" id="yellow"></button>
+
+    </div>
+
+    <div id="score">Your total score is: </div>
+
+
+ 
+
 </body>
 </html>
