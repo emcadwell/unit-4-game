@@ -1,0 +1,63 @@
+body{
+    background-image: url("../images/giphy.gif");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    font-family: 'Lexend Zetta', sans-serif;
+    
+}
+div{
+	background-color: #9bcdeb;
+	margin: 10px auto;
+    max-width: 40%;
+    text-align: center;
+    opacity: 0.95;
+    
+}
+div{
+	border: solid 2px rgb(233, 177, 238);
+	padding: 10px;
+}
+h1, span{
+	font-weight: bold;
+	text-align: center;
+}
+h1{
+	font-size: 30pt;
+}
+
+div.header, {
+	background-color: #9bcdeb;
+	width: 50%;
+}
+div#numberToGet {
+    height: 40px;
+    font-weight: bold;
+    font-size: 40px;
+}
+.userScore {
+	max-width: 40%;
+    height: 60px;
+    float: center;
+}
+.cyrstal-buttons{
+	clear: both;
+}
+.crystalImage{
+	height: 60px;
+    margin: 10px;
+    background: white;
+}
+
+#blue{
+	color: #3092c7;
+}
+#green{
+	color: #00aa59;
+}
+#red{
+	color: #ec4b5f;
+}
+#yellow{
+	color: #ffc225;
+}
